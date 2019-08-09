@@ -15,3 +15,14 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Make sure no sensitive data is accidentally committed
+# add w/ git add --force if actually docs
+*.csv
+*.txt
+*.xml
+*.xls
+*.xlst
+*.xlsx
+*.doc
+*.docx
